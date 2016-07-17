@@ -1,0 +1,9 @@
+c:\users\sachip\documents\visual studio 2013\Projects\StackImplementation\StackImplementation\bin\Debug\StackImplementation.exe.config
+c:\users\sachip\documents\visual studio 2013\Projects\StackImplementation\StackImplementation\obj\Debug\StackImplementation.csprojResolveAssemblyReference.cache
+c:\users\sachip\documents\visual studio 2013\Projects\StackImplementation\StackImplementation\bin\Debug\StackImplementation.exe
+c:\users\sachip\documents\visual studio 2013\Projects\StackImplementation\StackImplementation\bin\Debug\StackImplementation.pdb
+c:\users\sachip\documents\visual studio 2013\Projects\StackImplementation\StackImplementation\obj\Debug\StackImplementation.exe
+c:\users\sachip\documents\visual studio 2013\Projects\StackImplementation\StackImplementation\obj\Debug\StackImplementation.pdb
+C:\temp\Stack\StackImplementation\StackImplementation\bin\Debug\StackImplementation.exe.config
+C:\temp\Stack\StackImplementation\StackImplementation\obj\Debug\StackImplementation.exe
+C:\temp\Stack\StackImplementation\StackImplementation\obj\Debug\StackImplementation.pdb
