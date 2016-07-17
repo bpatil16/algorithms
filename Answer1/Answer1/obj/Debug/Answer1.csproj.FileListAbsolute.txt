@@ -1,0 +1,9 @@
+c:\users\sachip\documents\visual studio 2013\Projects\Answer1\Answer1\bin\Debug\Answer1.exe.config
+c:\users\sachip\documents\visual studio 2013\Projects\Answer1\Answer1\obj\Debug\Answer1.csprojResolveAssemblyReference.cache
+c:\users\sachip\documents\visual studio 2013\Projects\Answer1\Answer1\bin\Debug\Answer1.exe
+c:\users\sachip\documents\visual studio 2013\Projects\Answer1\Answer1\bin\Debug\Answer1.pdb
+c:\users\sachip\documents\visual studio 2013\Projects\Answer1\Answer1\obj\Debug\Answer1.exe
+c:\users\sachip\documents\visual studio 2013\Projects\Answer1\Answer1\obj\Debug\Answer1.pdb
+C:\Repos\algorithms\Answer1\Answer1\bin\Debug\Answer1.exe.config
+C:\Repos\algorithms\Answer1\Answer1\obj\Debug\Answer1.exe
+C:\Repos\algorithms\Answer1\Answer1\obj\Debug\Answer1.pdb
