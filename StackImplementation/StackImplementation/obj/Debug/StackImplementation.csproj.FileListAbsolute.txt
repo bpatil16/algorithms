@@ -7,3 +7,9 @@ c:\users\sachip\documents\visual studio 2013\Projects\StackImplementation\StackI
 C:\temp\Stack\StackImplementation\StackImplementation\bin\Debug\StackImplementation.exe.config
 C:\temp\Stack\StackImplementation\StackImplementation\obj\Debug\StackImplementation.exe
 C:\temp\Stack\StackImplementation\StackImplementation\obj\Debug\StackImplementation.pdb
+C:\Repos\algorithms\StackImplementation\StackImplementation\bin\Debug\StackImplementation.exe.config
+C:\Repos\algorithms\StackImplementation\StackImplementation\obj\Debug\StackImplementation.exe
+C:\Repos\algorithms\StackImplementation\StackImplementation\obj\Debug\StackImplementation.pdb
+C:\Repos\algorithms\StackImplementation\StackImplementation\obj\Debug\StackImplementation.csprojResolveAssemblyReference.cache
+C:\Repos\algorithms\StackImplementation\StackImplementation\bin\Debug\StackImplementation.exe
+C:\Repos\algorithms\StackImplementation\StackImplementation\bin\Debug\StackImplementation.pdb
