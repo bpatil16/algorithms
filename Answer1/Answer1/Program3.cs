@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// Problem no 3 for Arrays
+
 namespace Answer1
 {
     class Program3

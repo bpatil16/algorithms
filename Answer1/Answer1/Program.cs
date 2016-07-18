@@ -4,34 +4,47 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+/// SOLUTION OF PROBLEM 1 IN ARRAY DATA STRUCTURE ///
+
 namespace Answer1
 {
     class Program
     {
-        public void Test(int[] A, int size)
+        public void Test(int[] A, int low , int high)
         {
             int i = 0;
-
-            while (i <= size)
+            if (low > high)
+                return;
+            if (low == high)
             {
-                if (A[i] == A[i + 1])
-                {
-                    i = i + 2;
-                }
+                Console.WriteLine("\n The required element which is unique is " + A[low]);
+                Console.ReadLine();
+            }
+            int mid = (low + high) / 2;
+
+            if (mid % 2 == 0)
+            {
+                if (A[mid] == A[mid + 1])
+                    Test(A, mid +2 , high);
                 else
-                {
-                    Console.WriteLine(A[i]);
-                    break;
-                }
+                    Test(A, low, mid);
+            }
+            else {
+                if (A[mid] == A[mid - 1])
+                    Test(A, mid-2 , high);
+                else
+                    Test(A, low, mid - 1);
             }
         }
-        //static void Main()
+        //static int Main()
         //{
 
-        //    int[] Arr = new int[] { 1, 1, 3, 3, 4, 5, 5, 7, 7, 8, 8 };
+        //    int[] Arr = new int[] { 1, 1, 2, 2, 4, 4, 5, 5, 6};
         //    int Len = (Arr.Length) - 1;
         //    Program MyObj = new Program();
-        //    MyObj.Test(Arr, Len);
+        //    MyObj.Test(Arr,0, Len);
+        //    return 0;
         //    Console.ReadLine();
 
         //}

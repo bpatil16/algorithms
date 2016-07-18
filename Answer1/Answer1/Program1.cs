@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+/// SOLUTION TO PROBLEM 2 //
+
+
 namespace Answer1
 {
     class Program1
@@ -65,14 +69,14 @@ namespace Answer1
         }
 
 
-        static void Main()
-        {
-            int[] Arr = new int[] { 0, 0, 1, 3, 15 };
-            int Len = (Arr.Length) - 1;
-            Program1 Obj2 = new Program1();
-            Obj2.Test(Arr, Len);
-            Console.ReadLine();
+        //static void Main()
+        //{
+        //    int[] Arr = new int[] { 0, 0, 1, 3, 15 };
+        //    int Len = (Arr.Length) - 1;
+        //    Program1 Obj2 = new Program1();
+        //    Obj2.Test(Arr, Len);
+        //    Console.ReadLine();
 
-        }
+        //}
     }
 }
