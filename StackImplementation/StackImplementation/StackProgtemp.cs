@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Program to evaluate a stack with single digit numbers and two operators
+
 namespace StackImplementation
 {
     class StackProgtemp
@@ -20,9 +22,13 @@ namespace StackImplementation
 
             foreach (char c in S)
             {
+
+                //  if element is a number
+
                 if ((c) > 48 && c <= 57)
 
                     Val.push(Convert.ToInt32(c.ToString()));
+                // if element is an operand
 
                 else if (c == 43 || c == 45 ||
                    c == 42 || c == 47)
@@ -41,6 +47,8 @@ namespace StackImplementation
                 return Convert.ToInt32(Val.Pop());
             
         }
+  // function to evaluate expression based on the operand
+
         public static int evalOp(char op, int a, int b)
         {
             switch (op)
@@ -56,6 +64,7 @@ namespace StackImplementation
             }
             return 0;
         }
+
         // return true if op2 has higher precedence
 
         public static Boolean findPrecedence(char op1, char op2)
