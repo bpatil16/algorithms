@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Program  for implementation of stack
+
 namespace StackImplementation
 {
     class Program
@@ -57,12 +59,31 @@ interface StackADT
     object Peek();
     void display();
     void push(object element);
+
+    int count { get; }
 }
 class stack : StackADT
 {   
     int Stacksize;
     public int top;
     Object[] item;
+    
+    public int count
+    {
+        get {
+
+            int length = 0;
+            for (int i = 0; i < item.Length; i++)
+            {
+                if(item[i]!=null)
+                {
+                    length++;
+                }
+            }
+            
+            return length; 
+        }
+    }
 
     public int StackSizeSet
     {
@@ -94,7 +115,7 @@ class stack : StackADT
         else
         { 
             item[++top] = element;
-            Console.WriteLine("\n The Item is successfully pushed ");
+       //     Console.WriteLine("\n The Item is successfully pushed ");
 
         }
 
@@ -109,8 +130,11 @@ class stack : StackADT
             }
             else
             {
- 
-                return item[top--];
+                var temp = item[top];
+                item[top]=null;
+                top--;
+               return temp;
+                 
             }
         }
      public object Peek()

@@ -10,7 +10,7 @@ namespace StackImplementation
     {
         public int eval(string S)
         {
-            //char[] tokens = S.ToCharArray();
+            
             int len = S.Length;
 
 
@@ -66,14 +66,14 @@ namespace StackImplementation
                 return true;
         }
 
-        public static void Main()
-        {
+        //public static void Main()
+        //{
 
-            StackProgtemp obj2 = new StackProgtemp();
+        //    StackProgtemp obj2 = new StackProgtemp();
 
-            int result = obj2.eval("5+5*2");
-            Console.WriteLine("the result is " + result);
-            Console.ReadLine();
-        }
+        //    int result = obj2.eval("5+5*2");
+        //    Console.WriteLine("the result is " + result);
+        //    Console.ReadLine();
+        //}
     }
 }
